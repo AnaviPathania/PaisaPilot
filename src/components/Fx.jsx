@@ -20,7 +20,7 @@ const COINS = Array.from({ length: 26 }, (_, i) => ({ l: (i * 37) % 100, d: (i *
 export function Splash({ onDone }) {
   const [out, setOut] = useState(false);
   const finish = () => { setOut(true); setTimeout(onDone, 600); };
-  useEffect(() => { const t = setTimeout(finish, 5200); return () => clearTimeout(t); }, []);
+  useEffect(() => { const t = setTimeout(finish, 1500); return () => clearTimeout(t); }, []);
   return (
     <div className={`splash ${out ? 'out' : ''}`} role="dialog" aria-label="PaisaPilot intro" onClick={finish}>
       {COINS.map((c, i) => <span key={i} className="coin" style={{ left: `${c.l}%`, animationDelay: `${c.d}s`, animationDuration: `${c.t}s`, width: c.s, height: c.s, fontSize: c.s * 0.6 }}>₹</span>)}

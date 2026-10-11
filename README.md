@@ -3,7 +3,14 @@
 **Your money. Your choices. Your future.**
 
 Live demo: https://paisapilot-eta.vercel.app/
+## challenge brief
+Build a modern, interactive personal finance experience for Gen Z that helps users manage a limited ₹10,000 budget over 30 days and make informed financial decisions.
 
+The application should go beyond basic expense tracking by connecting income, balance, spending, commitments, savings goals, subscriptions, unexpected expenses, financial risk, and financial health.
+
+Users should be able to simulate financial decisions before taking them and clearly understand how each decision affects their remaining balance, daily allowance, savings goals, monthly forecast, financial risk, and overall financial health.
+
+The experience should feel like a real consumer-facing financial product where financial decisions have visible and interconnected consequences.
 ## Problem
 Students and young adults in India manage a fixed amount of money, for
 example ₹10,000 for 30 days. Expense trackers show where money went. They
